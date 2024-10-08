@@ -116,4 +116,267 @@
 
 
 
-// https://docs.google.com/document/d/1cvc8dgbqIAtOoNAxgYmAU6o6abbM1ea-fO2TXxsDIR0/edit
+
+
+
+
+//////////----- Switch case ga oid misollar -----//////////
+
+
+
+
+
+
+// 1-Misol
+
+// Masala: 1 dan 7 gacha bo‘lgan raqamlarni kiritganingizda, mos ravishda haftaning kunini (`1 - Dushanba`, `2 - Seshanba` va hokazo) switch...case orqali aniqlang va chop eting.
+
+// let num = +prompt("Hafta kunlarni birini kiriting!");
+// switch (num) {
+//     case 1:
+//         console.log("Dushanba");
+//         break;
+//     case 2:
+//         console.log("Seshanba");
+//         break;
+//     case 3:
+//         console.log("Chorshanba");
+//         break;
+//     case 4:
+//         console.log("Payshanba");
+//         break;
+//     case 5:
+//         console.log("Juma");
+//         break;
+//     case 6:
+//         console.log("Shanba");
+//         break;
+//     case 7:
+//         console.log("Yakshanba");
+//         break;
+
+//     default:
+//         console.log("Bunday hafta kuni yo'q!");
+//         break;
+// }
+
+
+
+
+// 2-Misol
+
+// Masala: 1 dan 12 gacha bo‘lgan raqamlarni kiritganingizda, bu raqam qaysi oyga mos kelishini aniqlang va bu oy qaysi faslga tegishli ekanligini switch...case orqali chop eting (`1 - Qish`, `5 - Bahor` va hokazo).
+
+// let num = +prompt("Fasl oylaridan birini kiriting!");
+// switch (num) {
+//     case 1:
+//     case 2:
+//     case 12:
+//         console.log("Qish");
+//         break;
+
+//     case 3:
+//     case 4:
+//     case 5:
+//         console.log("Bahor");
+//         break;
+
+//     case 6:
+//     case 7:
+//     case 8:
+//         console.log("Yoz");
+//         break;
+
+//     case 9:
+//     case 10:
+//     case 11:
+//         console.log("Kuz");
+//         break;
+
+//     default:
+//         console.log("Bunday oy mavjud emas");
+//         break;
+// }
+
+
+
+
+// 3-Misol
+
+// Masala: 1 dan 5 gacha bo‘lgan raqamlarni kiriting. Ushbu raqamga mos ravishda bahoni (`1 - Juda yomon`, `2 - Yomon`, `3 - Qoniqarli`, `4 - Yaxshi`, `5 - A'lo`) switch...case orqali aniqlang va chop eting.
+
+// let num = +prompt("Bahoni kiriting!");
+// switch (num) {
+//     case 1:
+//         console.log("Juda yomon");
+//         break;
+
+//     case 2:
+//         console.log("Yomon");
+//         break;
+
+//     case 3:
+//         console.log("Qoniqarli");
+//         break;
+
+//     case 4:
+//         console.log("Yaxshi");
+//         break;
+
+//     case 5:
+//         console.log("A'lo");
+//         break;
+
+//     default:
+//         console.log("Bunday baholash tizimi mavjud emas");
+//         break;
+// }
+
+
+
+
+// 4-Misol
+
+// Masala: Tariflar rejasiga ko‘ra, foydalanuvchi 1 dan 3 gacha raqam kiritsin. `1 - Ekonom`, `2 - Standart`, `3 - Premium` tariflaridan birini tanlaganini switch...case orqali aniqlang va tarif nomini chop eting.
+
+// let num = +prompt("Ta'rif raqamini kiriting!");
+// switch (num) {
+//     case 1:
+//         console.log("Ekonom");
+//         break;
+
+//     case 2:
+//         console.log("Standart");
+//         break;
+
+//     case 3:
+//         console.log("Premium");
+//         break;
+
+//     default:
+//         console.log("Bunday ta'rif hozircha mavjud emas");
+//         break;
+// }
+
+
+
+
+// 5-Misol
+
+// Masala: Foydalanuvchi 1 dan 4 gacha bo‘lgan raqamlarni kiritsin. Har bir raqamga mos ravishda bir meva tanlang (`1 - Olma`, `2 - Apelsin`, `3 - Banan`, `4 - Uva`) va ularning narxini switch...case orqali chop eting.
+
+// let fruits = +prompt("Mevalarga oid raqamni kiriting!");
+// switch (fruits) {
+//     case 1:
+//         console.log("Olma (Olmaning narxi: 20000so'm)");
+//         break;
+
+//     case 2:
+//         console.log("Apelsin (Apelsinning narxi: 25000so'm)");
+//         break;
+
+//     case 3:
+//         console.log("Banan (Bananning narxi: 25000so'm)");
+//         break;
+
+//     case 4:
+//         console.log("Uva (Uvaning narxi: 40000so'm)");
+//         break;
+
+//     default:
+//         console.log("Hozircha bu raqamda mevalar mavjud emas lekin tez orada kelishi mumkin");
+//         break;
+// }
+
+
+
+
+// 6-Misol
+
+// Masala: Foydalanuvchi 1 dan 3 gacha bo‘lgan variantlardan birini kiritsin. `1 - Parolni tiklash`, `2 - Parolni o'zgartirish`, `3 - Chiqish` variantlarini switch...case orqali aniqlang va tegishli xabarni chop eting.
+
+// let num = +prompt("Foydalanuvchi parolini oid raqamini kiriting");
+// switch (num) {
+//     case 1:
+//         console.log("Parolni tiklash");
+//         break;
+
+//     case 2:
+//         console.log("Parolni o'zgartirish");
+//         break;
+
+//     case 3:
+//         console.log("Chiqish");
+//         break;
+
+//     default:
+//         console.log("Bunday raqam mavjud emas");
+//         break;
+// }
+
+
+
+
+
+
+
+
+//////////----- While, do…while ga oid misollar -----//////////
+
+
+
+
+
+// 1-Misol    // Ikki xil yo'l bilan
+
+// Masala: 1 dan 10 gacha bo‘lgan sonlarni `while` sikli yordamida chiqarib bering.
+
+// (while)
+
+// let i = 1;
+// while (i <= 10) {
+//     console.log(i);
+//     i++
+// }
+
+// (do...while)
+
+// let i = 1;
+// do {
+//     console.log(i);
+//     i++
+// } while (i <= 10);
+
+
+
+
+
+// 2-Misol    // Ikki xil yo'l bilan
+
+// Masala: 10 dan 1 gacha bo‘lgan sonlarni teskari tartibda `while` sikli yordamida chop eting.
+
+// (While)
+
+// let i = 10;
+// while (i >= 1) {
+//     console.log(i);
+//     i--
+// }
+
+// (do...while)
+
+// let i = 10;
+// do {
+//     console.log(i);
+//     i--
+// } while (i >= 1);
+
+
+
+
+
+// 3-Misol    // Ikki xil yo'l bilan
+
+// Masala: Foydalanuvchi musbat son kiritmaguncha, undan son kiritishni talab qiladigan `while` sikli tuzing.
+
+// (While)

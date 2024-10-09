@@ -380,3 +380,118 @@
 // Masala: Foydalanuvchi musbat son kiritmaguncha, undan son kiritishni talab qiladigan `while` sikli tuzing.
 
 // (While)
+
+// let num = -1;
+// while (num <= 0) {
+    // num = +prompt("Musbat son kiriting:");
+    // if (isNaN(num)) {
+    //     console.log("Bu son emas! Musbat son kiriting.");
+    //     num = -1;
+    // } else if (num <= 0) {
+    //     console.log("Musbat son kiritishingiz kerak.");
+    // }
+// }
+// console.log("Siz musbat son kiritingiz: " + num);
+
+// (do...while)
+
+// let num = -1;
+// do {
+//     num = +prompt("Musbat son kiriting:");
+//     if (isNaN(num)) {
+//         console.log("Bu son emas! Musbat son kiriting.");
+//         num = -1;
+//     } else if (num <= 0) {
+//         console.log("Musbat son kiritishingiz kerak.");
+//     }
+// } while (num <= 0);
+
+// console.log("Siz musbat son kiritingiz: " + num);
+
+
+
+
+
+// 4-Misol    // Ikki xil yo'l bilan
+
+// Masala: 1 dan 20 gacha bo‘lgan juft sonlarni `while` sikli yordamida chiqarib bering.
+
+// (While)
+
+// let i = 2;
+// while (i <= 20) {
+//     console.log(i);
+//     i+=2
+// }
+
+// (do...while)
+
+// let i = 2;
+// do {
+//     console.log(i);
+//     i+=2;
+// } while (i <= 20);
+
+
+
+
+
+// 5-Misol    // Ikki xil yo'l bilan
+
+// Masala: Berilgan sonning barcha raqamlarini ajratib, ularning yig‘indisini `while` sikli yordamida toping. Masalan, 123 soni uchun yig‘indi 1 + 2 + 3 bo‘lsin.
+
+// (While)
+
+// let num = +prompt("Sonni kiriting");
+// let i = 0;
+// while (num > 0) {
+//     let number = num % 10;
+//     i += number;
+//     num = Math.floor(num / 10);
+// }
+// console.log("Bu sonlar yig'indisi: " + i);
+
+// (do...while)
+
+// let num = +prompt("Sonni kiriting");
+// let i = 0;
+// do {
+//     let number = num % 10;
+//     i += number;
+//     num = Math.floor(num / 10)
+// } while (num > 0);
+// console.log("Bu sonlar yig'indisi: " + i);
+
+
+
+
+
+// 6-Misol    // Ikki xil yo'l bilan
+
+// Masala: Foydalanuvchi son kiritsin. `while` sikli yordamida ushbu sonni 2 ga bo‘lib boring va natijani chop eting. Sikl son 1 dan kichik bo‘lgunga qadar davom etsin.
+
+// (While)
+
+// let num = +prompt("Sonni kiriting"); 
+// while (num >= 1) {
+//     console.log(num);
+//     num = num / 2;
+// }
+
+// (do...while)
+
+// let num = +prompt("Sonni kiriting"); 
+// do {
+//     console.log(num);
+//     num = num / 2;
+// } while (num >= 1);
+
+
+
+
+
+// 7-Misol    // Ikki xil yo'l bilan
+
+// Masala: Berilgan sonning barcha raqamlarini tekshirib, faqat toq raqamlarini `while` sikli yordamida chop eting.
+
+// (While)

@@ -495,3 +495,90 @@
 // Masala: Berilgan sonning barcha raqamlarini tekshirib, faqat toq raqamlarini `while` sikli yordamida chop eting.
 
 // (While)
+
+// let num = +prompt("Sonni kiriting");
+// let i = 0;
+// while (i <= num) {
+//     if (i % 2 == 1) {
+//         console.log(i);
+//     }
+//     i++
+// }
+
+// (do...while)
+
+// let num = +prompt("Sonni kiriting");
+// let i = 0;
+// do {
+//     if (i % 2 == 1) {
+//     console.log(i);
+// }
+
+// i++
+// } while (i <= num);
+
+
+
+
+
+// 8-Misol    // Ikki xil yo'l bilan
+
+// Masala: Foydalanuvchi boshlang'ich son va yakuniy son kiritadi. `while` sikli yordamida ushbu sonlar orasidagi faqat 3 ga bo‘linadigan sonlarni chop eting. Barcha boshqa sonlarni o‘tkazib yuboring.
+
+// (While)
+
+// let start = +prompt("1-sonni kiriting");
+// let end = +prompt("2-sonni kiriting");
+// if (end > start) {
+//     let i = start;
+//     while (i <= end) {
+//         if (i % 3 == 0) {
+//             console.log(i);
+//         }
+//         i++
+//     }
+// } else {
+//     console.log("Birinchi raqam ikkinchisidan kichik b'lishi shart!");
+// }
+
+// (do...while)
+
+// let start = +prompt("1-sonni kiriting");
+// let end = +prompt("2-sonni kiriting");
+// let i = start;
+// if (end > start) {
+//     do {
+//         if (i % 3 == 0) {
+//             console.log(i);
+//         }
+//         i++
+//     } while (i <= end);
+// }
+
+
+
+
+
+// 9-Misol    // Ikki xil yo'l bilan
+
+// Masala: Foydalanuvchi biror son kiritsin. Ushbu sonning raqamlarini teskari tartibda (`1234` ni `4321` ko‘rinishida) `while` sikli yordamida chop eting.
+
+// (While)
+
+// let num = +prompt("Sonni kiriting");
+// let sum = 0;
+// while (num > 0) {
+//     sum = (sum * 10) + (num % 10);
+//     num = Math.floor(num / 10)
+// }
+// console.log(sum);
+
+// (do...while)
+
+// let num = +prompt("Sonni kiriting");
+// let sum = 0;
+// do {
+//     sum = (sum * 10) + (num % 10);
+//     num = Math.floor(num / 10)
+// } while (num > 0);
+// console.log(sum);

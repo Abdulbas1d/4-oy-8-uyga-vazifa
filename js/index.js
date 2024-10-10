@@ -383,13 +383,13 @@
 
 // let num = -1;
 // while (num <= 0) {
-    // num = +prompt("Musbat son kiriting:");
-    // if (isNaN(num)) {
-    //     console.log("Bu son emas! Musbat son kiriting.");
-    //     num = -1;
-    // } else if (num <= 0) {
-    //     console.log("Musbat son kiritishingiz kerak.");
-    // }
+// num = +prompt("Musbat son kiriting:");
+// if (isNaN(num)) {
+//     console.log("Bu son emas! Musbat son kiriting.");
+//     num = -1;
+// } else if (num <= 0) {
+//     console.log("Musbat son kiritishingiz kerak.");
+// }
 // }
 // console.log("Siz musbat son kiritingiz: " + num);
 
@@ -582,3 +582,69 @@
 //     num = Math.floor(num / 10)
 // } while (num > 0);
 // console.log(sum);
+
+
+
+
+
+// 10-Misol    // Ikki xil yo'l bilan
+
+// Masala: Foydalanuvchi berilgan son bo‘yicha Fibonachchi ketma-ketligini (0, 1, 1, 2, 3, 5...) aniqlab, shu ketma-ketlikdagi sonlarni `while` sikli yordamida chop eting. Ketma-ketlikda kiritilgan son qiymatidan oshmasligi kerak.
+
+// (While)
+
+// let num = +prompt("Son kiriting");
+// let a = 0;
+// let b = 1;
+// let next = 0;
+// console.log("Fibonachchi ketma-ketligi:");
+// while (next <= num) {
+//     console.log(next);
+//     next = a + b;
+//     a = b;
+//     b = next;
+// }
+
+// (do...while)
+
+// let num = +prompt("Son kiriting");
+// let a = 0;
+// let b = 1;
+// let next = 0;
+// console.log("Fibonachchi ketma-ketligi:");
+// do {
+//     console.log(next);
+//     next = a + b;
+//     a = b;
+//     b = next;
+// } while (next <= num);
+
+
+
+
+
+// 11-Misol    // Ikki xil yo'l bilan
+
+// Masala: Foydalanuvchi bir son kiritsin. Ushbu sonning barcha raqamlarini ajratib, ularning ko‘paytmasini (masalan, 234 uchun 2 * 3 * 4) `while` sikli yordamida toping.
+
+// (While)
+
+// let num = +prompt("Son kiriting");
+// let sum = 1;
+// while (num > 0) {
+//     let res = num % 10;
+//     sum *= res;
+//     num = Math.floor(num / 10);
+// }
+// console.log("Raqamlar ko'paytmasi: " + sum);
+
+// (do...while)
+
+// let num = +prompt("Son kiriting");
+// let sum = 1;
+// do {
+//     let res = num % 10;
+//     sum *= res;
+//     num = Math.floor(num / 10);
+// } while (num > 0);
+// console.log("Raqamlar ko'paytmasi: " + sum);
